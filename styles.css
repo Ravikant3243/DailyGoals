@@ -1,0 +1,78 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color:#27374D;
+}
+.container{
+    background-color: white;
+   
+    width: 70%;
+    margin: auto;
+    min-height: 100vh;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+div>h1{
+      margin: auto;
+      text-align: center;
+     background-color: #27374D;
+     padding: 20px;
+     color: aliceblue;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input,textarea,button{
+     padding: 10px;
+     border: 1px solid rgba(0,0,0,0.4);
+     font: 100 1.1rem;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     border-radius: 5px;
+     outline: none;
+     margin: 10px;
+}
+button{
+    background-color:#27374D;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+     background-color: #6ECCAF;
+}
+.task{
+    background-color:#27374D;
+    font:100 1.1rem sans-serif;
+    padding: 30px;
+    color: black;
+   display: flex;
+   align-items: center;
+   margin: 2vmax;
+   
+}
+.task span{
+    color: rgb(247,247,247);
+  
+}
+.task>div{
+     width: 100%;
+}
+.delb{
+     border-radius: 100%;
+     width: 10px;
+     height: 30px;
+     font: 1.6rem;
+     display: flex;
+     justify-content: center;
+     background-color: #6ECCAF;
+     transition:all 1ms;
+     
+}
+
+.task p{
+    color: rgb(247,247,247);
+   margin-bottom: 10px;
+}
